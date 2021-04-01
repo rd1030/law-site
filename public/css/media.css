@@ -1,0 +1,355 @@
+@media screen and (max-width: 1280px) {
+    header {
+        width: 1280px;
+        background-color: #000;
+    }
+
+}
+
+@media screen and (max-width: 1570px) {
+    .header-background {
+        background-position: 0 0;
+    }
+}
+
+@media screen and (min-width:1050px) and (max-width:1280px) {
+    header {
+        width: 100%;
+        background-color: #000;
+    }
+
+    header ul {
+        margin-left: -30px;
+    }
+
+    nav ul li {
+        width: 100px;
+    }
+
+    .special-li {
+        width: 140px;
+    }
+
+    .section {
+        width: 1000px;
+    }
+
+    .special-section {
+        width: 1000px;
+    }
+
+    .slide-container {
+        width: 450px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1050px) {
+    header {
+        width: 100%;
+        background-color: #000;
+    }
+
+    header .ul-default {
+        display: none;
+    }
+
+    .section {
+        width: 750px;
+    }
+
+    .special-section {
+        width: 750px;
+    }
+
+    .slide-container {
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    .middle-margin {
+        text-align: center;
+    }
+
+    .section-inner .block {
+        padding-left: 50px;
+    }
+
+    .slick-prev {
+        left: 0px;
+    }
+
+    .slick-next {
+        right: 10px;
+    }
+
+    /* hamburger */
+    .menu-hamburger {
+        height: 100px;
+        width: 100px;
+        transform: translate(-50%, -50%);
+        margin-top:220px;
+        margin-left:140px;
+        z-index:6;
+    }
+
+    .menu-hamburger:hover {
+        cursor: pointer;
+    }
+
+    .hambergerIcon {
+        height: 8px;
+        width: 80px;
+        border-radius: 50px;
+        background-color: #fff;
+        transform: translate(-50%, -50%) rotate(0deg);
+        transition: all ease 0.5s;
+    }
+
+    .hambergerIcon::before,
+    .hambergerIcon::after {
+        content: "";
+        position: absolute;
+        height: inherit;
+        border-radius: inherit;
+        background-color: inherit;
+        margin: auto;
+        width: 50%;
+        transition: all ease 0.5s;
+    }
+
+    .hambergerIcon::before {
+        top: -20px;
+        left: 0;
+        transform-origin: left;
+    }
+
+    .hambergerIcon::after {
+        bottom: -20px;
+        right: 0;
+        transform-origin: right;
+    }
+
+    .open {
+        transform: translate(-50%, -50%) rotate(135deg);
+    }
+
+    .open::before {
+        top: 0;
+        transform: translateX(100%) rotate(-90deg);
+    }
+
+    .open::after {
+        bottom: 0;
+        transform: translateX(-100%) rotate(-90deg);
+    }
+
+    .section .ul-show {
+        z-index: 5;
+        display: block !important;
+        position:absolute;
+        top:60%;
+        left:50%;
+        text-align: center;
+    }
+
+    .background-ul-style {
+        z-index:5;
+        position: absolute;
+        height: 1400px;
+        width:100%;
+        background-color: #21252b;
+    }
+    .section-inner {
+        margin-top:100px;
+    }
+
+    .section-footer div div{
+        margin-left:50px;
+    }
+}
+
+@media screen  and (max-width:767px) {
+    header {
+        width: 100%;
+        background-color: #000;
+    }
+    .logo a img {
+        width:200px;
+        margin-left:60px;
+    }
+    header .ul-default {
+        display: none;
+    }
+    .time-work {
+        display: none;
+    }
+    .section {
+        width: 320px;
+    }
+
+    .special-section {
+        width: 750px;
+    }
+
+    .slide-container {
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    .middle-margin {
+        text-align: center;
+    }
+
+    .section-inner .block {
+        padding-left: 50px;
+    }
+
+    .slick-prev {
+        left: 0px;
+    }
+
+    .slick-next {
+        right: 10px;
+    }
+
+    /* hamburger */
+    .menu-hamburger {
+        height: 100px;
+        width: 100px;
+        transform: translate(-50%, -50%);
+        margin-top:220px;
+        margin-left:120px;
+        z-index:6;
+    }
+
+    .menu-hamburger:hover {
+        cursor: pointer;
+    }
+
+    .hambergerIcon {
+        height: 8px;
+        width: 80px;
+        border-radius: 50px;
+        background-color: #fff;
+        transform: translate(-50%, -50%) rotate(0deg);
+        transition: all ease 0.5s;
+    }
+
+    .hambergerIcon::before,
+    .hambergerIcon::after {
+        content: "";
+        position: absolute;
+        height: inherit;
+        border-radius: inherit;
+        background-color: inherit;
+        margin: auto;
+        width: 50%;
+        transition: all ease 0.5s;
+    }
+
+    .hambergerIcon::before {
+        top: -20px;
+        left: 0;
+        transform-origin: left;
+    }
+
+    .hambergerIcon::after {
+        bottom: -20px;
+        right: 0;
+        transform-origin: right;
+    }
+
+    .open {
+        transform: translate(-50%, -50%) rotate(135deg);
+    }
+
+    .open::before {
+        top: 0;
+        transform: translateX(100%) rotate(-90deg);
+    }
+
+    .open::after {
+        bottom: 0;
+        transform: translateX(-100%) rotate(-90deg);
+    }
+
+    .section .ul-show {
+        z-index: 5;
+        display: block !important;
+        position:absolute;
+        top:55%;
+        left:40%;
+        text-align: center;
+    }
+
+    .background-ul-style {
+        z-index:5;
+        position: absolute;
+        height: 1400px;
+        width:100%;
+        background-color: #21252b;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .aside-left {
+        width:100%;
+    }
+    .aside-right {
+        display: none;
+    }
+    .section .row .block {
+        width:100%;
+        margin-bottom:20px;
+    }
+    .section .row {
+        flex-wrap: wrap;
+        margin-top:0px;
+    }
+    .info-desc p{
+        margin:0;
+    }
+    .describe {
+        margin-bottom:0px;
+    }
+    .special-section {
+        display: none;
+    }
+    h3.middle-margin {
+        margin-top:20px;
+        margin-bottom:0px;
+    }
+    .map {
+        height:720px;
+    }
+    .section-inner .block {
+        width:100%;
+        margin-bottom:30px;
+    }
+    .section-map {
+        height:720px;
+    }
+    .section-inner {
+        flex-wrap: wrap;
+    }
+    .section-footer{
+        margin-left:50px;
+        height:140px
+    }
+    .container {
+        width:320px;
+    }
+    .container .aside-left-nav {
+        width:320px;
+        font-size:22px;
+    }
+    .layout-content {
+        width:320px;
+    }
+    .title .line {
+        display:none;
+    }
+    .section-footer {
+        margin:auto;
+    }
+}
